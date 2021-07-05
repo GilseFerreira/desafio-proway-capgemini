@@ -20,3 +20,19 @@ A calculadora foi desenvolvida a partir dos seguintes dados do problema:
 
 - mvn clean package
 - mvn spring-boot:run || java -jar package gerenciamento-de-anuncios-0.0.1-SNAPSHOT.jar
+
+
+- GET http://localhost:8080/anuncio/
+- GET http://localhost:8080/anuncio/1
+- DELETE http://localhost:8080/anuncio/1
+- POST http://localhost:8080/anuncio
+```javascript{
+    "nome": "Desafio Capgemini",
+    "cliente": "Maria Joaquina",
+    "dataInicio": "25/06/2021",
+    "dataTermino": "04/07/2021",
+    "valorInvestidoDia": "10.0"
+}
+```
+
+- GET http://localhost:8080/anuncio/relatorio?dataInicio=25/07/2021&dataTermino=25/12/2021&nomeCliente=Facebook
