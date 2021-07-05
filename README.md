@@ -18,5 +18,5 @@ A calculadora foi desenvolvida a partir dos seguintes dados do problema:
 
 <h3> Instruções: </h3>
 
-mvn clean package
-mvn spring-boot:run || java -jar package gerenciamento-de-anuncios-0.0.1-SNAPSHOT.jar
+- mvn clean package
+- mvn spring-boot:run || java -jar package gerenciamento-de-anuncios-0.0.1-SNAPSHOT.jar
